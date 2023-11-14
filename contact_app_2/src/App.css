@@ -1,0 +1,68 @@
+
+/* App 컴포넌트 */
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.contact-box{
+  display: flex;
+  gap: 15px;
+}
+
+/* ContactList 컴포넌트 */
+.contact-list-box{
+  border-left: 2px solid black;
+  padding-left: 10px;
+}
+
+/* ContactItem 컴포넌트 */
+.contact-item-box{
+  display: flex;
+  align-items: center;
+  gap:5px;
+  border:1px solid black;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.contact-img{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-img > img{
+  width: 50px;
+  height: 50px;
+}
+
+.contact-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.contact-item-box > p {
+  margin: 0;
+}
+
+
+/* SearchBox 컴포넌트 */
+.contact-search-box{
+  display: flex;
+  gap: 5px;
+}
+
+input[type="text"]{
+  width: 150px;
+  height: 20px;
+  border: 0;
+  border-bottom: 1px solid lightgray;
+}
+
+input[type="text"]:focus{
+  outline: none;
+}

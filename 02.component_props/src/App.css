@@ -1,0 +1,15 @@
+.menu-item {
+  border: 5px solid black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.team-item {
+  border: 1px solid skyblue;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+}
